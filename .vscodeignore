@@ -1,0 +1,12 @@
+.vscode/
+node_modules/**
+!.vscodeignore
+!.vsixmanifest
+**/*.ts
+**/*.map
+test/**
+scripts/**
+src/**
+vite.config.js
+tsconfig.json
+.github/**

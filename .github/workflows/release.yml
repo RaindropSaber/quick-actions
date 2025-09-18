@@ -1,0 +1,29 @@
+name: Build & Release VSCode Extension
+
+on:
+  push:
+    tags:
+      - 'v*.*.*' # 例如 v1.2.3
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Package VSCode Extension
+        run: npm run package
+
+      - name: Upload to GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: your-extension.vsix
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick Actions 配置</title>
+    <link rel="stylesheet" href="{{STYLE_URI}}" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: var(--vscode-font-family);
+        font-size: var(--vscode-font-size);
+        background-color: var(--vscode-editor-background);
+        color: var(--vscode-foreground);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loading">Loading...</div>
+    <div id="app"></div>
+    <script type="module">
+      import { initExtPanel } from '{{SCRIPT_URI}}';
+      initExtPanel('{{EXT_PANEL_NAME}}');
+    </script>
+  </body>
+</html>
