@@ -9,7 +9,7 @@ import { ActionConfig } from '../types';
  * 所有的 action handler 都应该继承这个基类
  */
 export class AIHandler extends ActionHandler implements ActionHandler {
-  public static AI_CONFIG_KEY = 'quickActions.ai';
+  public static AI_CONFIG_KEY = 'smartActions.ai';
   openai: OpenAI;
 
   get AIConfig() {

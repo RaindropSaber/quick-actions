@@ -42,7 +42,7 @@ export const createExtBridgeAPI = (ext: Extension) => ({
   },
 
   getAiConfig: async () => {
-    const config = vscode.workspace.getConfiguration('quickActions.ai');
+    const config = vscode.workspace.getConfiguration('smartActions.ai');
     return {
       apiKey: config.get<string>('apiKey') || '',
       baseURL: config.get<string>('baseURL') || '',
@@ -54,7 +54,7 @@ export const createExtBridgeAPI = (ext: Extension) => ({
   saveAiConfig: async (aiConfig: { apiKey: string; baseURL: string; model: string; temperature: number }) => {
     const config = vscode.workspace.getConfiguration();
     await config.update(
-      'quickActions.ai',
+      'smartActions.ai',
       {
         apiKey: aiConfig.apiKey,
         baseURL: aiConfig.baseURL,

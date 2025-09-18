@@ -4,7 +4,7 @@ import { ActionHandler, handlerMap } from '../handlers';
 import { Extension } from '.';
 
 export class ActionManager {
-  public static readonly ACTIONS_CONFIG_KEY = 'quickActions.actions';
+  public static readonly ACTIONS_CONFIG_KEY = 'smartActions.actions';
   public handlers: Map<string, ActionHandler>;
   public readonly ext: Extension;
 

@@ -203,7 +203,7 @@ module.exports = {
 
 ```json
 {
-  "quickActions.ai": {
+  "smartActions.ai": {
     "apiKey": "your-api-key",
     "baseURL": "https://api.openai.com/v1",
     "model": "gpt-3.5-turbo",
@@ -218,7 +218,7 @@ Actions 配置存储在 VSCode 的用户设置中，您也可以直接编辑：
 
 ```json
 {
-  "quickActions.actions": [
+  "smartActions.actions": [
     {
       "name": "转换为驼峰命名",
       "description": "将选中的文本转换为驼峰命名格式",

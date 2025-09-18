@@ -36,32 +36,32 @@
     "Machine Learning"
   ],
   "activationEvents": [
-    "*:quickActions.run"
+    "*:smartActions.run"
   ],
   "main": "./out/index.js",
   "icon": "./public/icon.png",
   "contributes": {
     "commands": [
       {
-        "command": "quickActions.run",
+        "command": "smartActions.run",
         "title": "执行快速动作",
         "category": "Smart Actions"
       },
       {
-        "command": "quickActions.configure",
+        "command": "smartActions.configure",
         "title": "配置动作",
         "category": "Smart Actions"
       }
     ],
     "keybindings": [
       {
-        "command": "quickActions.run",
+        "command": "smartActions.run",
         "key": "alt+q",
         "mac": "alt+q",
         "when": "editorTextFocus"
       },
       {
-        "command": "quickActions.configure",
+        "command": "smartActions.configure",
         "key": "alt+w",
         "mac": "alt+w",
         "when": "editorTextFocus"
@@ -70,7 +70,7 @@
     "configuration": {
       "title": "Smart Actions",
       "properties": {
-        "quickActions.actions": {
+        "smartActions.actions": {
           "type": "array",
           "default": [
             {
@@ -82,7 +82,7 @@
           ],
           "description": "自定义action配置列表"
         },
-        "quickActions.ai": {
+        "smartActions.ai": {
           "type": "object",
           "default": {
             "apiKey": "",

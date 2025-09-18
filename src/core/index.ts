@@ -4,7 +4,7 @@ import { ConfigPanel } from './ConfigPanel';
 import { createExtBridgeAPI } from './ExtBridgeApi';
 
 export class Extension {
-  public readonly name: string = 'quickActions';
+  public readonly name: string = 'smartActions';
 
   public readonly context: vscode.ExtensionContext;
   public readonly ActionManager: ActionManager;
