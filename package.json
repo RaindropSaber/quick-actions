@@ -1,26 +1,26 @@
 {
-  "name": "quick-actions",
-  "displayName": "Quick Actions",
+  "name": "smart-actions",
+  "displayName": "Smart Actions",
   "description": "快速执行自定义脚本的VSCode插件",
   "version": "0.1.0",
-  "publisher": "quick-actions",
+  "publisher": "RaindropSaber",
   "author": {
-    "name": "Quick Actions Team"
+    "name": "Smart Actions Team"
   },
   "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RaindropSaber/quick-actions.git"
+    "url": "https://github.com/RaindropSaber/smart-actions.git"
   },
   "bugs": {
-    "url": "https://github.com/RaindropSaber/quick-actions/issues"
+    "url": "https://github.com/RaindropSaber/smart-actions/issues"
   },
-  "homepage": "https://github.com/RaindropSaber/quick-actions#readme",
+  "homepage": "https://github.com/RaindropSaber/smart-actions#readme",
   "keywords": [
     "vscode",
     "extension",
-    "quick-actions",
+    "smart-actions",
     "ai",
     "text-processing",
     "automation",
@@ -45,12 +45,12 @@
       {
         "command": "quickActions.run",
         "title": "执行快速动作",
-        "category": "Quick Actions"
+        "category": "Smart Actions"
       },
       {
         "command": "quickActions.configure",
         "title": "配置动作",
-        "category": "Quick Actions"
+        "category": "Smart Actions"
       }
     ],
     "keybindings": [
@@ -68,7 +68,7 @@
       }
     ],
     "configuration": {
-      "title": "Quick Actions",
+      "title": "Smart Actions",
       "properties": {
         "quickActions.actions": {
           "type": "array",

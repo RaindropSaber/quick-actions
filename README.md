@@ -1,13 +1,13 @@
-# Quick Actions
+# Smart Actions
 
 <div align="center">
 
-![Quick Actions Logo](https://img.shields.io/badge/VSCode-Quick%20Actions-blue?style=for-the-badge&logo=visual-studio-code)
+![Smart Actions Logo](https://img.shields.io/badge/VSCode-Smart%20Actions-blue?style=for-the-badge&logo=visual-studio-code)
 
 一个简洁而强大的 VSCode 插件，允许用户通过快捷键选择和执行自定义 Action。支持内置文本转换、AI 处理和自定义脚本执行。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-0.1.0-green.svg)](https://github.com/your-username/quick-actions)
+[![Version](https://img.shields.io/badge/version-0.1.0-green.svg)](https://github.com/your-username/smart-actions)
 [![VSCode](https://img.shields.io/badge/VSCode-1.74.0+-blue.svg)](https://code.visualstudio.com/)
 
 </div>
@@ -30,15 +30,15 @@
 
 1. 打开 VSCode
 2. 按 `Ctrl+Shift+X` 打开扩展面板
-3. 搜索 "Quick Actions"
+3. 搜索 "Smart Actions"
 4. 点击安装
 
 #### 方式二：从源码安装
 
 1. 克隆此仓库到本地：
    ```bash
-   git clone https://github.com/your-username/quick-actions.git
-   cd quick-actions
+   git clone https://github.com/your-username/smart-actions.git
+   cd smart-actions
    ```
 2. 安装依赖：
    ```bash
@@ -328,12 +328,12 @@ npm run vscode:prepublish
 
 ## 🤝 支持与反馈
 
-- 🐛 **问题反馈**: [GitHub Issues](https://github.com/your-username/quick-actions/issues)
-- 💡 **功能建议**: [GitHub Discussions](https://github.com/your-username/quick-actions/discussions)
+- 🐛 **问题反馈**: [GitHub Issues](https://github.com/your-username/smart-actions/issues)
+- 💡 **功能建议**: [GitHub Discussions](https://github.com/your-username/smart-actions/discussions)
 - ⭐ **如果这个项目对您有帮助，请给我们一个 Star！**
 
 ---
 
 <div align="center">
-Made with ❤️ by Quick Actions Team
+Made with ❤️ by Smart Actions Team
 </div>

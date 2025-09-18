@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <div class="header">
-      <h1>Quick Actions 配置</h1>
+      <h1>Smart Actions 配置</h1>
       <div class="header-buttons">
         <button @click="toggleAiConfig" class="btn-secondary">
           <span class="icon">🤖</span>

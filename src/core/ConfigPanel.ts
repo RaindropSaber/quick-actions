@@ -23,7 +23,7 @@ export class ConfigPanel {
       throw new Error('Extension context not available');
     }
 
-    const panel = vscode.window.createWebviewPanel('quickActionsConfig', 'Quick Actions 配置', vscode.ViewColumn.One, {
+    const panel = vscode.window.createWebviewPanel('quickActionsConfig', 'Smart Actions 配置', vscode.ViewColumn.One, {
       enableScripts: true,
       retainContextWhenHidden: true,
       localResourceRoots: [vscode.Uri.joinPath(this.context.extensionUri, 'out')],
